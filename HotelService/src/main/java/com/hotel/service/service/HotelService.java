@@ -17,4 +17,6 @@ public interface HotelService {
 	
 	//! Get a hotel by hotelId
 	HotelDto getAllHotelById(String hotelId);
+	
+	HotelDto updateHotelDetailsPartially(String hotelId, HotelDto hotelDto);
 }

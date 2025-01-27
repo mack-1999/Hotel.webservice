@@ -35,14 +35,14 @@
 	</properties>
 	
 	<dependencies>
-		<dependency>
+<!--		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-cache</artifactId>
 		</dependency>
 		<dependency>
 		    <groupId>org.ehcache</groupId>
 		    <artifactId>ehcache</artifactId>
-		</dependency>
+		</dependency>-->
 		
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -52,10 +52,10 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
-		<dependency>
+		<!--<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
-		</dependency>
+		</dependency>-->
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -71,9 +71,9 @@
 		</dependency>
 		
 		<dependency>
-			<groupId>com.mysql</groupId>
-			<artifactId>mysql-connector-j</artifactId>
-			<scope>runtime</scope>
+		    <groupId>mysql</groupId>
+		    <artifactId>mysql-connector-java</artifactId>
+		    <version>8.0.33</version>
 		</dependency>
 		<dependency>
 			<groupId>org.projectlombok</groupId>
@@ -86,11 +86,11 @@
 			<scope>test</scope>
 		</dependency>
 		
-		<dependency>
+		<!--<dependency>
 			<groupId>com.hotel.ApiGateway</groupId>
 			<artifactId>ApiGatway</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
+		</dependency>-->
 	</dependencies>
 	
 	<dependencyManagement>
