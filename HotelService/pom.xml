@@ -35,7 +35,7 @@
 	</properties>
 	
 	<dependencies>
-<!--		<dependency>
+		<!--<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-cache</artifactId>
 		</dependency>
@@ -52,10 +52,10 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
-		<!--<dependency>
+		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
-		</dependency>-->
+		</dependency>
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -86,11 +86,11 @@
 			<scope>test</scope>
 		</dependency>
 		
-		<!--<dependency>
+		<dependency>
 			<groupId>com.hotel.ApiGateway</groupId>
 			<artifactId>ApiGatway</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
-		</dependency>-->
+		</dependency>
 	</dependencies>
 	
 	<dependencyManagement>
@@ -123,8 +123,7 @@
 			<plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-resources-plugin</artifactId>
-                <version>3.3.1</version>
-            </plugin>
+                </plugin>
 		</plugins>
 	</build>
 
