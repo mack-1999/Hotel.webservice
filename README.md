@@ -35,8 +35,4 @@ The application uses Ehcache to optimize performance by caching frequently acces
 The microservice is registered with a Eureka Server, enabling dynamic service discovery and load balancing. This ensures that the system remains resilient and scalable in distributed environments.
 
 ## Technology Stack
-Backend: Spring Boot
-Database: MySql
-Caching: Ehcache
-Service Discovery: Eureka Server
-Tools: Postman for API testing
+Backend: Spring Boot, Database: MySql, Caching: Ehcache, Service Discovery: Eureka Server, Tools: Postman for API testing
